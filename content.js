@@ -30,6 +30,6 @@ window.ENGAGEMENT = {
   SHARE_MESSAGE: "You're invited to celebrate the engagement of Aleena Rose T R & Jaise Jose.\n\nNovember 28, 2026\n11:00 AM\n\nSt. Sebastian's Church\nPoroor, Kattimoola\n\nWe would love to have you with us.",
   OPEN_GRAPH_TITLE: "Aleena Rose T R & Jaise Jose — Engagement Invitation",
   OPEN_GRAPH_DESCRIPTION: "Join us to celebrate the beautiful beginning of Aleena and Jaise's journey together.",
-  OPEN_GRAPH_IMAGE: "assets/rings.jpeg",
+  OPEN_GRAPH_IMAGE: "assets/invitation2-floral-background.png",
   PUBLIC_URL: ""
 };

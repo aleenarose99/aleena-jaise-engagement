@@ -8,155 +8,61 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Aleena Rose T R &amp; Jaise Jose — Engagement Invitation">
   <meta property="og:description" content="Join us to celebrate the beautiful beginning of Aleena and Jaise's journey together.">
-  <meta property="og:image" content="https://example.com/assets/rings.jpeg">
+  <meta property="og:image" data-image="assets/invitation2-floral-background.png" content="assets/invitation2-floral-background.png">
   <meta property="og:url" content="https://example.com/">
   <meta name="twitter:card" content="summary_large_image">
   <title>Aleena Rose T R &amp; Jaise Jose | Engagement Invitation</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="preload" href="assets/floral-bokeh-background.webp" as="image" fetchpriority="high">
-  <link rel="preload" href="assets/Aleena_Ring.png" as="image" fetchpriority="high">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" href="assets/invitation2-floral-background.png" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="invitation3.css">
   <script src="content.js" defer></script>
   <script src="script.js" defer></script>
 </head>
-<body>
-  <a class="skip-link" href="#bride-ring">Skip to the invitation</a>
-  <div class="petal-layer" id="petal-layer" aria-hidden="true"></div>
+<body class="invitation3-page">
+  <a class="skip-link" href="#invitation-content">Skip to the invitation</a>
+  <div class="petal-layer" aria-hidden="true">
+    <i class="petal petal--one"></i><i class="petal petal--two"></i>
+    <i class="petal petal--three"></i><i class="petal petal--four"></i>
+    <i class="petal petal--five"></i><i class="petal petal--six"></i>
+    <i class="petal petal--seven"></i><i class="petal petal--eight"></i>
+    <i class="petal petal--nine"></i><i class="petal petal--ten"></i>
+    <i class="petal petal--eleven"></i><i class="petal petal--twelve"></i>
+  </div>
 
-  <header class="site-header">
-    <a class="wordmark" href="#bride-ring" aria-label="Aleena and Jaise">A <span aria-hidden="true">✳</span> J</a>
-    <nav aria-label="Invitation sections">
-      <a href="#bride-ring">THE RINGS</a>
-      <a href="#ring-journey">OUR MOMENT</a>
-      <a href="#the-day">THE DAY</a>
-      <a href="#rsvp">RSVP</a>
-    </nav>
-    <button class="share-top" data-share type="button">SHARE <span aria-hidden="true">↗</span></button>
+  <header class="invitation3-header">
+    <a class="monogram" href="index.html" aria-label="Return to the main invitation">A <span aria-hidden="true">✳</span> J</a>
+    <button class="share-button" data-share type="button">SHARE <span aria-hidden="true">↗</span></button>
   </header>
 
-  <main id="invitation">
-    <section class="ring-profile ring-profile--bride" id="bride-ring" aria-labelledby="bride-ring-title">
-      <div class="profile-copy">
-        <p class="eyebrow">A PROMISE, MADE PERSONAL</p>
-        <h1 id="bride-ring-title">Bride Ring</h1>
-        <p class="profile-name">(<span data-content="brideName">Aleena Rose T R</span>)</p>
-        <div class="heart-rule" aria-hidden="true"><span></span><i>♥</i><span></span></div>
-        <p class="profile-note">A little symbol of forever</p>
-      </div>
-      <figure class="profile-art">
-        <img id="bride-profile-image" data-ring-photo="bride" src="assets/Aleena_Ring.png" alt="Aleena's two-tone engagement ring" fetchpriority="high" draggable="false">
-      </figure>
-      <a class="scene-scroll" href="#groom-ring"><span>SCROLL TO MEET THE GROOM'S RING</span><i aria-hidden="true">↓</i></a>
-      <span class="profile-index" aria-hidden="true">01 <i></i> 02</span>
+  <main class="invitation-copy" id="invitation-content">
+    <p class="eyebrow writing-reveal" style="--write-delay:.15s">WE AWAIT YOU</p>
+    <h1 class="invitation-title writing-reveal" style="--write-delay:.55s"><span>Our</span><em data-content="eventType">Engagement</em></h1>
+    <div class="heart-rule writing-rule" aria-hidden="true" style="--write-delay:1.75s"><i></i><span>♥</span><i></i></div>
+    <p class="couple-names writing-reveal" style="--write-delay:2s"><span data-content="brideName">Aleena Rose T R</span><i aria-hidden="true">&amp;</i><span data-content="groomName">Jaise Jose</span></p>
+    <p class="invitation-message writing-reveal" style="--write-delay:2.95s"><span>Together with our families,</span><br><span>we invite you to celebrate</span><br><span>the beautiful beginning of our journey.</span></p>
+
+    <section class="event-details writing-reveal" aria-label="Engagement date, time and venue" style="--write-delay:3.75s">
+      <p class="event-date"><span data-content="eventDate">November 28, 2026</span><i aria-hidden="true">·</i><span data-content="eventTime">11:00 AM</span><span data-content="timezone">IST</span></p>
+      <p class="event-venue"><span data-content="venueName">St. Sebastian's Church</span><br><span data-content="venueLocation">Poroor, Kattimoola</span></p>
     </section>
 
-    <section class="ring-profile ring-profile--groom" id="groom-ring" aria-labelledby="groom-ring-title">
-      <div class="profile-copy">
-        <p class="eyebrow">A PROMISE, MADE PERSONAL</p>
-        <h2 id="groom-ring-title">Groom Ring</h2>
-        <p class="profile-name">(<span data-content="groomName">Jaise Jose</span>)</p>
-        <div class="heart-rule" aria-hidden="true"><span></span><i>♥</i><span></span></div>
-        <p class="profile-note">A promise to keep, every day</p>
+    <a class="map-button writing-reveal" data-maps href="https://www.google.com/maps/search/?api=1&amp;query=St%20Sebastian%27s%20Church%2C%20Poroor%2C%20Kattimoola" target="_blank" rel="noopener noreferrer" style="--write-delay:4.45s">OPEN IN GOOGLE MAPS <span aria-hidden="true">↗</span></a>
+
+    <section class="rsvp-panel" id="rsvp" aria-labelledby="rsvp-title">
+      <h2 class="rsvp-title writing-reveal" id="rsvp-title" style="--write-delay:4.95s">RSVP</h2>
+      <div class="heart-rule heart-rule--small writing-rule" aria-hidden="true" style="--write-delay:5.25s"><i></i><span>♥</span><i></i></div>
+      <p class="rsvp-copy writing-reveal" style="--write-delay:5.45s">We would be delighted if you could join us<br class="desktop-break"> for our engagement celebration.</p>
+      <div class="rsvp-actions writing-reveal" style="--write-delay:5.95s">
+        <button class="rsvp-choice rsvp-choice--yes" data-rsvp="yes" type="button" aria-pressed="false">WILL ATTEND</button>
+        <button class="rsvp-choice" data-rsvp="no" type="button" aria-pressed="false">UNABLE TO ATTEND</button>
       </div>
-      <figure class="profile-art">
-        <img id="groom-profile-image" data-ring-photo="groom" src="assets/Jaise_Ring.png" alt="Jaise's two-tone ring with a diamond" loading="lazy" draggable="false">
-      </figure>
-      <a class="scene-scroll" href="#ring-journey"><span>SCROLL TO WATCH THEIR STORY</span><i aria-hidden="true">↓</i></a>
-      <span class="profile-index" aria-hidden="true">02 <i></i> 02</span>
+      <p class="rsvp-status" id="rsvp-status" role="status" aria-live="polite" hidden></p>
+      <button class="rsvp-whatsapp writing-reveal" id="rsvp-whatsapp" type="button" style="--write-delay:6.3s">SEND RSVP ON WHATSAPP <span aria-hidden="true">↗</span></button>
     </section>
-
-    <section class="ring-journey" id="ring-journey" aria-label="Scroll to bring the two rings together">
-      <div class="ring-stage" id="ring-stage" data-step="1">
-        <div class="stage-light" aria-hidden="true"></div>
-        <div class="stage-floor" aria-hidden="true"></div>
-        <p class="journey-kicker">A PROMISE IN MOTION</p>
-        <div class="ring-step-guide" id="ring-step-guide" aria-live="polite" aria-atomic="true">
-          <span id="ring-step-number">SCROLL 1</span>
-          <p id="ring-step-copy">BRIDE RING<br>FALLS FROM ABOVE</p>
-          <i aria-hidden="true">↓</i>
-        </div>
-        <figure class="journey-ring" id="bride-journey-ring">
-          <img data-ring-photo="bride" src="assets/Aleena_Ring.png" alt="Aleena's ring falling into place" draggable="false">
-        </figure>
-        <figure class="journey-ring" id="groom-journey-ring">
-          <img data-ring-photo="groom" src="assets/Jaise_Ring.png" alt="Jaise's ring falling into place" draggable="false">
-        </figure>
-        <div class="ring-final-copy" id="ring-final-copy" aria-hidden="true">
-          <p>Two Hearts</p>
-          <h2>One Beautiful Beginning</h2>
-        </div>
-        <p class="ring-scroll-note">KEEP SCROLLING TO BRING THEM TOGETHER <span aria-hidden="true">↓</span></p>
-        <div class="ring-light-burst" aria-hidden="true"></div>
-      </div>
-    </section>
-
-    <section class="final-invitation" id="the-day" aria-labelledby="invitation-title">
-      <div class="final-shell">
-        <header class="final-heading">
-          <p class="eyebrow">WE AWAIT YOU</p>
-          <h2 id="invitation-title"><span>Our</span> <em data-content="eventType">Engagement</em></h2>
-          <div class="heart-rule" aria-hidden="true"><span></span><i>♥</i><span></span></div>
-          <p class="final-names"><span data-content="brideName">Aleena Rose T R</span><i aria-hidden="true">&amp;</i><span data-content="groomName">Jaise Jose</span></p>
-        </header>
-
-        <p class="final-motto"><span>Two Hearts</span><br><em>One Beautiful Beginning</em></p>
-
-        <div class="final-rings" aria-hidden="true">
-          <div class="final-ring-glow"></div>
-          <figure class="final-ring final-ring--bride"><img data-ring-photo="bride" src="assets/Aleena_Ring.png" alt="" loading="lazy"></figure>
-          <figure class="final-ring final-ring--groom"><img data-ring-photo="groom" src="assets/Jaise_Ring.png" alt="" loading="lazy"></figure>
-        </div>
-
-        <div class="event-card" aria-label="Engagement date, time and venue">
-          <div class="event-row">
-            <span class="event-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="5" width="17" height="16" rx="2"/><path d="M7.5 3v4M16.5 3v4M4 9h16M8 12h2m4 0h2m-8 4h2m4 0h2"/></svg>
-            </span>
-            <div>
-              <p class="event-label">DATE &amp; TIME</p>
-              <strong data-content="eventDate">November 28, 2026</strong>
-              <span><span data-content="eventTime">11:00 AM</span> · <span data-content="timezone">IST</span></span>
-            </div>
-          </div>
-          <div class="event-divider"></div>
-          <div class="event-row">
-            <span class="event-icon event-icon--pin" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M19 10.2c0 5.4-7 11-7 11s-7-5.6-7-11a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.2"/></svg>
-            </span>
-            <div>
-              <p class="event-label">A SPECIAL PLACE</p>
-              <strong data-content="venueName">St. Sebastian's Church</strong>
-              <span data-content="venueLocation">Poroor, Kattimoola</span>
-            </div>
-          </div>
-          <a class="map-button" data-maps href="https://www.google.com/maps/search/?api=1&amp;query=St%20Sebastian%27s%20Church%2C%20Poroor%2C%20Kattimoola" target="_blank" rel="noopener noreferrer">
-            OPEN IN GOOGLE MAPS <span aria-hidden="true">↗</span>
-          </a>
-        </div>
-
-        <section class="rsvp-panel" id="rsvp" aria-labelledby="rsvp-title">
-          <p class="rsvp-title" id="rsvp-title">RSVP</p>
-          <div class="heart-rule heart-rule--small" aria-hidden="true"><span></span><i>♥</i><span></span></div>
-          <p class="rsvp-copy">We would be delighted if you could join us<br class="desktop-break"> for our engagement celebration.</p>
-          <div class="rsvp-actions">
-            <button class="rsvp-choice rsvp-choice--yes" data-rsvp="yes" type="button" aria-pressed="false">WILL ATTEND</button>
-            <button class="rsvp-choice" data-rsvp="no" type="button" aria-pressed="false">UNABLE TO ATTEND</button>
-          </div>
-          <p class="rsvp-status" id="rsvp-status" role="status" aria-live="polite" hidden></p>
-          <button class="rsvp-whatsapp" id="rsvp-whatsapp" type="button">SEND RSVP ON WHATSAPP <span aria-hidden="true">↗</span></button>
-          <p class="rsvp-note">Your message opens in WhatsApp for you to review and send.</p>
-        </section>
-      </div>
-    </section>
+    <p class="signature writing-reveal" style="--write-delay:6.7s">WITH LOVE, <span data-content="shortNames">Aleena &amp; Jaise</span></p>
+    <a class="other-invitation" href="invitation1.html">VIEW INVITATION 1</a>
+    <a class="other-invitation" href="invitation2.html">VIEW INVITATION 2</a>
   </main>
-
-  <footer class="site-footer">
-    <p class="footer-monogram">A <span aria-hidden="true">✳</span> J</p>
-    <p>With love, <span data-content="shortNames">Aleena &amp; Jaise</span></p>
-    <a class="footer-share invitation2-link" href="invitation2.html">VIEW INVITATION 2 <span aria-hidden="true">↗</span></a>
-    <a class="footer-share invitation2-link" href="invitation3.html">VIEW INVITATION 3 <span aria-hidden="true">↗</span></a>
-    <button class="footer-share" data-share type="button">SHARE INVITATION <span aria-hidden="true">↗</span></button>
-  </footer>
 
   <button class="music-control is-paused" id="music-control" type="button" aria-label="Play engagement music" aria-pressed="false" title="Play engagement music">
     <span class="music-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>

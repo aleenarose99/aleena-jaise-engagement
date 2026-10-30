@@ -15,7 +15,7 @@ window.ENGAGEMENT = {
   BRIDE_RING: "assets/Aleena_Ring.png",
   GROOM_RING: "assets/Jaise_Ring.png",
   COVER_IMAGE: "assets/rings.jpeg", // Cover/hero keepsake; the scroll scene uses the two separate PNGs above.
-  BACKGROUND_MUSIC: "assets/engagement-music.mp3",
+  BACKGROUND_MUSIC: "assets/wedding-theme-music.m4a",
   COUPLE_PHOTOS: { bride: "", groom: "", couple: "" },
   COUPLE_DESCRIPTIONS: { bride: "", groom: "", couple: "" },
   GALLERY_PHOTOS: [
